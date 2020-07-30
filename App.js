@@ -8,8 +8,7 @@ import reducers from './src/reducers';
 export default function App() {
   return (
     <Provider store={createStore(reducers)}>
-      <View>
-        <Text>Welcome</Text>
+      <View style={{flex: 1}}>
         <LibraryList />
       </View>
     </Provider>
